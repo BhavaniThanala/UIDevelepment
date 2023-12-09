@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstChildLastChild</title>
+</head>
+<style>
+    ol li:first-child{
+        border: 2px solid red;
+        margin: 5px;
+        padding: 10px;
+    }
+    ol li:last-child{
+        border: 2px solid red;
+        margin: 5px;
+        padding: 10px;
+    }
+    ul li:first-child{
+        border: 2px solid red;
+        margin: 5px;
+        padding: 10px;
+    }
+    ul li:last-child{
+        border: 2px solid red;
+        margin: 5px;
+        padding: 10px;
+    }
+    ul li:first-child , ol li:first-child{
+        color: green;
+    }
+</style>
+<body>
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+    </ol>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+
+    </ul>
+</body>
+</html>
