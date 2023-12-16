@@ -1,0 +1,37 @@
+section,div{
+    /* border: 2px solid blue; */
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex: 1;
+}
+div:nth-child(1){
+    flex: 3;
+}
+body{
+    /* background-color: lightgray; */
+    font-family: Arial;
+}
+.services{
+    font-size: 18px;
+    color: #474545;
+    line-height: 78px;
+    font-weight: bold;
+}
+.logo{
+    color: red;
+    font-weight: bold;
+    line-height: 83px;
+    padding-left: 170px;
+    font-size: xx-large;
+}
+.button{
+    background-color: red;
+    color: #fff;
+    height: 30px;
+    border-radius: 30px;
+    margin-top: 25px;
+    line-height: 32px;
+    font-weight: bold;
+
+}
